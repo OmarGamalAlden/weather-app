@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <section class="home">
+      <img src="Photos/SL_042221_42420_25.jpg" alt="weather photo"  class="weather-site">
+      <nav>
+        <div class="site-title">
+          <i class="fa-solid fa-temperature-high"></i>
+          <span>Weather Go...</span>
+        </div>
+        <input onkeyup="displayCountries()" class="searchBar" type="text" placeholder="search ...">
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 one">
+            <div class="cardOne today text-center">
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cardOne tomorrow text-center">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
